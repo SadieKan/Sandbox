@@ -16,9 +16,9 @@ thick = thin*2;
 background(black);
 stroke(purpleNight); //ink colour
 strokeWeight(thin);
-//fill(blueNight)
+fill(blueNight);
 //fill(107, 177, 180); //blueNight //RGB
-fill( random(255), random(255), random(255) ); //RGB as random(), 0-255
+//fill( random(255), random(255), random(255) ); //RGB as random(), 0-255
 //
 rect(x, y, rectWidth, rectHeight);
 //
