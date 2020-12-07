@@ -19,15 +19,15 @@ printArray(fontList); //For listing all possible fonts to choose, then createFon
 */
 titleFont = createFont ("Cambria", 55); //Verify font exists
 //Tools / Create Font / Find Font / Do Not Press "OK", known bug
-pic = loadImage("flowers-564-703.jpg"); //Dimension: 564 Width, 703 Height
+pic = loadImage("flowers-563-188.jpg"); //Dimension: 564 Width, 703 Height
 //
 //Populating Variables
 titleX = width*1/5;
 titleY = height*1/10;
 titleWidth = width*3/5;
 titleHeight = height*1/10;
-imageWidthRatio = 564.0/564.0; //must be decmals due to float, larger # for aspect ratio
-imageHeightRatio = 703.0/564.0; //must be decmals due to float, <1 for aspect ratio
+imageWidthRatio = 563.0/563.0; //must be decmals due to float, larger # for aspect ratio
+imageHeightRatio = 188.0/563.0; //must be decmals due to float, <1 for aspect ratio
 imageStartWidth = width*0;
 imageStartHeight = height*1/2;
 imageWidth = width*imageWidthRatio; //Aspect Ratio
